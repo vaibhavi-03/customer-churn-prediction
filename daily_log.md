@@ -4,3 +4,8 @@
 - Completed Weekend 1 of Customer Churn Prediction project
 - Set up GitHub repo, added dataset, ran first data inspection
 - Dataset: 7043 rows, 21 cols, 26.5% churn rate, zero missing values
+
+## Day 2 — 28 Jun 2026
+- Reviewed all 21 columns of the Telco Churn dataset
+- Noted class imbalance: 73.5% No churn vs 26.5% Yes churn
+- Plan for Weekend 2: churn by contract type, tenure histogram, heatmap
