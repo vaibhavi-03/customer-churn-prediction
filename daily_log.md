@@ -14,3 +14,8 @@
 - Revised Pandas: groupby, value_counts, crosstab
 - Studied what makes a good EDA — univariate → bivariate → multivariate
 - Read about correlation heatmaps and when to use them
+
+## Day 4 — 30 Jun 2026
+- Revised ML Internship Module 1 notes (Python + NumPy + Pandas)
+- Practiced 2 SQL problems on LeetCode (aggregations + GROUP BY)
+- Understood difference between .info() and .describe()
