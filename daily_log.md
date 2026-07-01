@@ -19,3 +19,8 @@
 - Revised ML Internship Module 1 notes (Python + NumPy + Pandas)
 - Practiced 2 SQL problems on LeetCode (aggregations + GROUP BY)
 - Understood difference between .info() and .describe()
+
+## Day 5 — 1 Jul 2026
+- Studied class imbalance handling: oversampling, undersampling, class_weight
+- Learned why accuracy is a bad metric for imbalanced datasets
+- Will use F1-score + recall as primary metrics in Weekend 4
