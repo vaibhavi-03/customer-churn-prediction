@@ -24,3 +24,9 @@
 - Studied class imbalance handling: oversampling, undersampling, class_weight
 - Learned why accuracy is a bad metric for imbalanced datasets
 - Will use F1-score + recall as primary metrics in Weekend 4
+
+## Day 6 — 2 Jul 2026
+- Revised Statistics: mean, median, variance, standard deviation
+- Practiced 1 SQL window function problem (RANK + PARTITION BY)
+- Looked up Seaborn docs for heatmap and boxplot syntax
+
