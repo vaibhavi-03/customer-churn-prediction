@@ -30,3 +30,7 @@
 - Practiced 1 SQL window function problem (RANK + PARTITION BY)
 - Looked up Seaborn docs for heatmap and boxplot syntax
 
+## Day 7 — 3 Jul 2026
+- Studied Logistic Regression — how it works, sigmoid function, decision boundary
+- This will be the baseline model in Weekend 3
+- Revised confusion matrix: TP, FP, TN, FN and what each means for churn
