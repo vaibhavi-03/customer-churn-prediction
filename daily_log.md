@@ -34,3 +34,9 @@
 - Studied Logistic Regression — how it works, sigmoid function, decision boundary
 - This will be the baseline model in Weekend 3
 - Revised confusion matrix: TP, FP, TN, FN and what each means for churn
+
+## Day 9 — 5 Jul 2026
+- Completed Weekend 2 EDA notebook
+- Key finding: Month-to-month customers churn at ~43% vs 11% for yearly contracts
+- Correlation heatmap shows tenure and TotalCharges are strongly correlated
+- Charts saved: churn distribution, contract type, tenure, monthly charges, heatmap
