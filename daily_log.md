@@ -35,6 +35,11 @@
 - This will be the baseline model in Weekend 3
 - Revised confusion matrix: TP, FP, TN, FN and what each means for churn
 
+## Day 8 — 4 Jul 2026
+- Weekend 2 starts tomorrow — prepped EDA plan
+- Will analyze: churn by Contract, tenure distribution, MonthlyCharges vs Churn
+- Set up Matplotlib + Seaborn in the project environment
+
 ## Day 9 — 5 Jul 2026
 - Completed Weekend 2 EDA notebook
 - Key finding: Month-to-month customers churn at ~43% vs 11% for yearly contracts
