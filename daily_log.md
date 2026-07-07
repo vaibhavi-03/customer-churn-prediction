@@ -45,3 +45,13 @@
 - Key finding: Month-to-month customers churn at ~43% vs 11% for yearly contracts
 - Correlation heatmap shows tenure and TotalCharges are strongly correlated
 - Charts saved: churn distribution, contract type, tenure, monthly charges, heatmap
+
+## Day 10 — 6 Jul 2026
+- Reviewed EDA findings and wrote plain-English insights in notebook
+- Practiced 2 SQL problems: subqueries + CTEs
+- Tomorrow: start thinking about feature encoding strategy for Weekend 3
+
+## Day 11 — 7 Jul 2026
+- Studied Label Encoding vs One-Hot Encoding — when to use which
+- Telco dataset has many categorical columns: Contract, PaymentMethod, InternetService
+- Will apply pd.get_dummies() in Weekend 3 preprocessing
