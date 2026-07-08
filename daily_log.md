@@ -55,3 +55,8 @@
 - Studied Label Encoding vs One-Hot Encoding — when to use which
 - Telco dataset has many categorical columns: Contract, PaymentMethod, InternetService
 - Will apply pd.get_dummies() in Weekend 3 preprocessing
+
+## Day 12 — 8 Jul 2026
+- Revised feature scaling: StandardScaler vs MinMaxScaler
+- Logistic Regression and SVM are sensitive to scale — must scale before fitting
+- Practiced 2 SQL problems: JOIN + GROUP BY combinations
