@@ -60,3 +60,8 @@
 - Revised feature scaling: StandardScaler vs MinMaxScaler
 - Logistic Regression and SVM are sensitive to scale — must scale before fitting
 - Practiced 2 SQL problems: JOIN + GROUP BY combinations
+
+## Day 13 — 9 Jul 2026
+- Studied train-test split and why we never train on test data
+- Revised confusion matrix: precision, recall, F1-score
+- For churn prediction: recall matters more than precision (catching churners is priority)
