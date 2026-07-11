@@ -65,3 +65,15 @@
 - Studied train-test split and why we never train on test data
 - Revised confusion matrix: precision, recall, F1-score
 - For churn prediction: recall matters more than precision (catching churners is priority)
+
+## Day 14 — 10 Jul 2026
+- Weekend 3 starts tomorrow — prepped preprocessing plan
+- Columns to encode: gender, Partner, Dependents, PhoneService, Contract, PaymentMethod etc.
+- Will drop customerID (not a feature), handle TotalCharges null from pd.to_numeric
+- Baseline model: Logistic Regression — simple, interpretable, good starting point
+
+## Day 15 — 11 Jul 2026
+- Completed Weekend 3: preprocessing + baseline Logistic Regression model
+- One-hot encoded 16 categorical columns using pd.get_dummies()
+- Baseline results: ~80% accuracy, 57% recall on churn class
+- Next weekend: Random Forest + XGBoost to improve recall beyond 57%
