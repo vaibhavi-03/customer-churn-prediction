@@ -77,3 +77,39 @@
 - One-hot encoded 16 categorical columns using pd.get_dummies()
 - Baseline results: ~80% accuracy, 57% recall on churn class
 - Next weekend: Random Forest + XGBoost to improve recall beyond 57%
+
+## Day 16 — 12 Jul 2026
+- Reviewed baseline confusion matrix: 916 TN, 215 TP, 159 FN, 117 FP
+- Studied why 57% recall means we're missing 43% of actual churners
+- Designed Streamlit app layout: sidebar inputs, gauge chart, risk signals breakdown
+- Decided to merge Weekend 4+5 and ship full app by 17 Jul
+
+## Day 17 — 13 Jul 2026
+- Built complete Streamlit frontend: dark theme, Space Grotesk font, Plotly charts
+- App features: real-time churn probability gauge, EDA charts, key risk signals
+- Created train_model.py to save model artifacts (pkl files) for Streamlit Cloud
+- Tested model loading via joblib — all 3 artifacts saved successfully
+
+## Day 18 — 14 Jul 2026
+- Fixed streamlit PATH issue on Windows: used python -m streamlit run app.py
+- Tested full prediction flow locally — gauge, risk signals, probability all working
+- Pushed all files: app.py, train_model.py, requirements.txt, .streamlit/config.toml
+- Model pkl files committed to repo for Streamlit Cloud deployment
+
+## Day 19 — 15 Jul 2026
+- Deployed app to Streamlit Cloud: share.streamlit.io → connected vaibhavi-03 GitHub
+- Set main file: app.py, branch: main — deployment successful
+- Updated README: added live demo badge, results table, full project structure
+- Project complete: 18 days, 3 notebooks, 1 deployed app
+
+## Day 20 — 16 Jul 2026
+- Reviewed full project end to end — data inspection → EDA → preprocessing → deployment
+- Wrote project summary for portfolio and LinkedIn post draft
+- Practiced 3 SQL problems: window functions + CASE WHEN
+- Next project planning: starting a new ML project for placement prep
+
+## Day 21 — 17 Jul 2026
+- Final review of ChurnSight app — tested edge cases in sidebar inputs
+- Updated GitHub profile README: progress bar now shows Customer Churn 5/5 complete
+- Reflected on 21-day streak: consistency > perfection
+- Ready for next project and placement season
