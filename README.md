@@ -18,7 +18,7 @@ A telecom company wants to identify customers likely to cancel their subscriptio
 
 ## 🚀 Live Demo
 
-**[→ Open ChurnSight App](https://vaibhavi-03-customer-churn-prediction.streamlit.app)**
+**[→ Open ChurnSight App](https://cust-churn-predictor.streamlit.app/)**
 
 Fill in a customer profile in the sidebar → get real-time churn probability + risk signals.
 
@@ -93,24 +93,6 @@ customer-churn-prediction/
 - Target: `Churn` (Yes / No) — 26.5% positive class
 - Features: demographics, phone/internet services, contract type, billing info
 
----
-
-## ⚙️ How to Run Locally
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/vaibhavi-03/customer-churn-prediction.git
-cd customer-churn-prediction
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Train the model (generates pkl files)
-python train_model.py
-
-# 4. Run the app
-python -m streamlit run app.py
-```
 
 ---
 
